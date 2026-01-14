@@ -140,11 +140,12 @@ All checks must pass before merging. See `.github/workflows/ci.yml` for details.
 - **`pr_policy.md`**: Complete PR workflow requirements and rationale
 - **`CODE_REVIEW_CHECKLIST.md`**: What to check when reviewing PRs
 - **`pull_request_template.md`**: Template for PR descriptions
+- **`GITHUB_SETTINGS.md`**: How to configure GitHub for self-review or team review
 
 ### Key Rules
 
 1. **No direct pushes to `main`** - all changes via PRs
-2. **One reviewer minimum** - every PR needs approval
+2. **One reviewer minimum** - every PR needs approval (see `GITHUB_SETTINGS.md` for self-review configuration)
 3. **CI must pass** - all automated checks must succeed
 4. **Include test instructions** - tell reviewers how to verify changes
 5. **Keep PRs small** - easier to review and less risky

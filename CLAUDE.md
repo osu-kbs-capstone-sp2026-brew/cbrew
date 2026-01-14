@@ -35,7 +35,7 @@ This is a Capstone KBS (Knowledge-Based Systems) demo repository demonstrating G
    - `docs/` for documentation (e.g., `docs/readme-update`)
 3. **PRs must be:**
    - Small and focused (guideline: <400 lines changed)
-   - Reviewed by at least one teammate before merging
+   - Reviewed by at least one teammate before merging (or self-review if configured - see `GITHUB_SETTINGS.md`)
    - Have passing CI checks before merging
    - Include clear test instructions in the PR description
 

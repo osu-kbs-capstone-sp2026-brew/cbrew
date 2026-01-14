@@ -31,6 +31,8 @@ Guideline: if your PR is more than ~400 lines changed, it should likely be split
 ### 4) Every PR needs a reviewer
 Before merging, each PR must be reviewed by **at least one teammate**.
 
+**Exception for solo development**: If you're working solo or during initial setup, you may self-approve PRs after all CI checks pass. However, for team projects, peer review is strongly encouraged. See `GITHUB_SETTINGS.md` for configuration details.
+
 ### 5) Every PR must be testable
 Each PR must include instructions for how to test it, e.g.
 - `pytest`
