@@ -22,6 +22,10 @@ class TestGreet:
         """Test greeting with special characters."""
         assert greet("Dr. Smith") == "Hello, Dr. Smith!"
 
+    def test_greet_with_unicode(self):
+        """Test greeting with unicode characters."""
+        assert greet("José") == "Hello, José!"
+
 
 class TestAddNumbers:
     """Tests for the add_numbers function."""
@@ -46,3 +50,7 @@ class TestAddNumbers:
         """Test adding with zero."""
         assert add_numbers(5, 0) == 5.0
         assert add_numbers(0, 0) == 0.0
+
+    def test_add_large_numbers(self):
+        """Test adding large numbers."""
+        assert add_numbers(1_000_000, 2_000_000) == 3_000_000.0
